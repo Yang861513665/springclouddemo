@@ -1,0 +1,9 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ds1?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: 2016
+    type: com.zaxxer.hikari.HikariDataSource
+server:
+  port: 8089

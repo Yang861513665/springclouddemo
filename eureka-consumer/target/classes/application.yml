@@ -1,0 +1,19 @@
+
+server:
+  port: 8763
+spring:
+  application:
+    name: consumer
+user:
+  name: yangxj
+  pwd: 123
+feign:
+  hystrix:
+    enabled: true
+eureka:
+  instance:
+    instance-id: consumer-fegin
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8760/eureka/
